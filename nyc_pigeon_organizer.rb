@@ -18,14 +18,9 @@ def nyc_pigeon_organizer(data)
   
 
   pigeon_list.each do |name, hash|
-
-    
-     
      pigeon_list[name] = {:color => [], :gender => [],  :lives => []}
-
-
     end
-  puts pigeon_list
+#  puts pigeon_list
   
   data.map do |attribute, values|
     values.map do |type, names|
